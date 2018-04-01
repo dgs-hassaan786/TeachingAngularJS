@@ -1,0 +1,68 @@
+
+
+
+Angular JS 1.0
+				
+https://www.youtube.com/watch?v=i9MHigUZKEM
+				
+				
+
+// Modules
+1. Directives
+2. Services/Factories				
+3. Constant/variables
+4. Controller
+
+Pattern : MVW - (Model View Whatever) Whatever - Controller ho bhi sakta ha or nhi bhi
+
+But MVC pattern
+
+
+ng-app: defines the root element of the application (it cannot be more than one)
+
+
+ng-model: for two-way data binding
+ng-if : dynamic generation
+ng-show: 
+ng-hide: 
+ng-switch:
+ng-repeat:
+
+$http
+
+
+
+https://stackoverflow.com/questions/23074875/angularjs-factory-and-service
+
+
+WebServices  
+- Architecture (SOAP) 
+- Envelop (XML)
+- IT was not REST
+- Heavy architecture 
+- Other datatypes need to configure
+
+API
+- HTTP protocol (port 80 and 443) 
+- No SOAP
+- REST handling
+- VERB (get,post,put,delete,options,patch) 
+- Custom verbs
+- NO Envelop (so it is extremely faster than WebServices)
+- It will return on the basis of requested Content-type header
+- CORS (Cross Origin request)
+
+status code:
+200 -- success callback
+400 -- error callback
+500 -- error callback
+
+
+
+promise.then(successCallback(),failureCallback());
+
+promise
+.then(
+function(response){},
+function(response){})
+
